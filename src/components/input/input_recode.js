@@ -6,7 +6,7 @@ export default function Input_Recode({
             <label><b>{labeltxt}</b></label>
             <input name={inputName && inputName}
                 id={inputID && inputID} placeholder={placeholder ? placeholder : ""}
-                className={cssClass ? cssClass : "w-auto h-7 p-2 border-none shadow-md rounded-md"} />
+                className={cssClass ? cssClass : "w-auto p-1 border-none shadow-md rounded-md"} />
         </div>
     )
 }
